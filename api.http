@@ -1,0 +1,20 @@
+POST http://localhost:4000/register HTTP/1.1
+content-Type: application/json
+
+{
+    "username":
+    "password":
+    "email":
+    "name":
+}
+###
+POST http://localhost:4000/login HTTP/1.1
+content-Type: application/json
+
+{
+
+    "email":
+    "password":
+}
+###
+GET http://localhost:4000/get_allUser_profile
