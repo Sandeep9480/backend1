@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(postRoutes);
 app.use(userRoutes);
 app.use(express.static("uploads"));
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 main()
   .then(() => {
     console.log("Database is connected");
